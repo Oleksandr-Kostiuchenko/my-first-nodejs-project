@@ -134,11 +134,11 @@ const checkAccess = async (path) => {
   }
 };
 
-const pathToTXTfilik = path.join(
-  process.cwd(),
-  'src',
-  'files',
-  'textContent.txt',
-);
-checkAccess(pathToTXTfilik);
+// const pathToTXTfilik = path.join(
+//   process.cwd(),
+//   'src',
+//   'files',
+//   'textContent.txt',
+// );
+// checkAccess(pathToTXTfilik);
 //! ============================================= /Practice with FS module =============================================
